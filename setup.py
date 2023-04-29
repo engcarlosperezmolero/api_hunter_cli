@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="api_hunter_cli",
-    version="0.2.0",
+    version="0.2.1",
     description="CLI tool for finding hidden apis in a certain url.",
     author="Charly Molero",
     author_email="perez.moleroc@gmail.com",
