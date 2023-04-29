@@ -1,21 +1,13 @@
 from setuptools import setup, find_packages
-from setuptools.command.install import install
-import sys
-
-
-class PostInstallCommand(install):
-    def run(self):
-        install.run(self)
-        self.spawn([sys.executable, "post_install.py"])
 
 
 setup(
     name="api_hunter_cli",
-    version="0.1.7",
+    version="0.2.0",
     description="CLI tool for finding hidden apis in a certain url.",
     author="Charly Molero",
     author_email="perez.moleroc@gmail.com",
-    url="https://github.com/engcarlosperezmolero/",
+    url="https://github.com/engcarlosperezmolero/api_hunter_cli",
     packages=find_packages(),
     install_requires=[
         "playwright",
@@ -42,5 +34,4 @@ setup(
         "Programming Language :: Python :: 3.10",
     ],
     python_requires=">=3.7",
-    cmdclass={"post_install": PostInstallCommand},
 )
