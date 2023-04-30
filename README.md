@@ -1,11 +1,11 @@
 # API HUNTER CLI
 A cli tool that helps scraping process based on hidden apis.
 
-We all know how is to inside the network tab in developer tools and spend some useful time just
+We all know how is to go inside the network tab in developer tools and spend some useful time just
 looking for some api that could work for getting some data.
 
 Api Hunter CLI is a command line tool that automates this process for you, you just need to give the url from the 
-page you are trying to scrape and in a few second you would get the possible hidden APIS and their responses.
+page you are trying to scrape and in a few seconds you would get the possible hidden APIS and their responses.
 
 
 ## How to install
